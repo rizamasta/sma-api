@@ -17,14 +17,16 @@ class Account_LoginController extends Application_Model_DealerAbstract{
 
     protected function  _validParams(){
         $params = $this->_request->getParams();
-        if(empty($params['username'])){
-            $this->view->message = 'Username Can`t Empty';
+        if(!empty($params['username']) && is_numeric($params['username'])){
+            $this->view->errorMsg = 'Username Can`t Be Numeric';
+
         }
+
     }
 
 
     protected function getDataUser(){
         $params = $this->_request->getParams();
-        $this->view->params = $this->getModelLogin()->getUser($params['username'],md5($params['password']));
+        $this->view->response= $this->getModelLogin()->getUser($params['username'],sha1($params['password']));
     }
 }
