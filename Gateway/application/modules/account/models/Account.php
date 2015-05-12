@@ -12,9 +12,13 @@ class Account_Model_Account extends  Zend_Db_Table_Abstract{
     public function getUser($username,$password){
         $select = $this->select();
         $select->from($this->_name,array());
-        $select->columns('*');
-        $select->where('nama_login = ?',$username);
+        $select->columns('username');
+        $select->columns('realname');
+        $select->columns('id_role');
+        $select->columns('last_log');
+        $select->where('username = ?',$username);
         $select->where('password = ?',$password);
         return $this->getAdapter()->fetchRow($select);
     }
+
 }

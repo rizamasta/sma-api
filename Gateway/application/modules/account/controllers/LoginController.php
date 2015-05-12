@@ -24,9 +24,30 @@ class Account_LoginController extends Application_Model_DealerAbstract{
 
     }
 
-
     protected function getDataUser(){
         $params = $this->_request->getParams();
-        $this->view->response= $this->getModelLogin()->getUser($params['username'],sha1($params['password']));
+
+        try{
+            $response= $this->getModelLogin()->getUser($params['username'],sha1($params['password']));
+            /* Start Update Data Login User */
+            if(!empty($response)){
+                try{
+                    $upadateUser = array(
+                        'last_log'=>new Zend_Db_Expr('NOW()')
+                    );
+                    $where = $this->getModelLogin()->getAdapter()->quoteInto('username = ?',$response['username']);
+                    $this->getModelLogin()->update($upadateUser,$where);
+                }catch (Exception $e){
+                    $this->view->errorMsg=$e->getMessage();
+                }
+
+            }
+            /* End Update Data User */
+            echo json_encode($response);
+
+        }catch (Exception $e){
+            echo json_encode($e->getMessage());
+        }
+
     }
 }
