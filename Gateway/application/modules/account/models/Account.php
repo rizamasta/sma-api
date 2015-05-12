@@ -18,7 +18,13 @@ class Account_Model_Account extends  Zend_Db_Table_Abstract{
         $select->columns('last_log');
         $select->where('username = ?',$username);
         $select->where('password = ?',$password);
-        return $this->getAdapter()->fetchRow($select);
+        try{
+            return $data = $this->getAdapter()->fetchRow($select);
+        }catch (Exception $e) {
+            return $e->getMessage();
+        }
+
+
     }
 
 }
