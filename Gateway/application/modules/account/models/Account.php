@@ -14,6 +14,7 @@ class Account_Model_Account extends  Zend_Db_Table_Abstract{
         $select->from($this->_name,array());
         $select->columns('username');
         $select->columns('realname');
+        $select->columns('session_id');
         $select->columns('id_role');
         $select->columns('last_log');
         $select->where('username = ?',$username);
@@ -23,8 +24,19 @@ class Account_Model_Account extends  Zend_Db_Table_Abstract{
         }catch (Exception $e) {
             return $e->getMessage();
         }
+    }
 
-
+    public function getAuth($session_id){
+        $select = $this->select();
+        $select->from($this->_name,array());
+        $select->columns('session_id');
+        $select->columns('realname');
+        $select->where('session_id =?',$session_id);
+        try{
+            return $data = $this->getAdapter()->fetchRow($select);
+        }catch (Exception $e) {
+            return $e->getMessage();
+        }
     }
 
 }
