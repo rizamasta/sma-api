@@ -17,9 +17,8 @@ class Api_Model_Login extends Zend_Db_Table_Abstract{
         $select->where('user_name = ?',$username);
         $select->where('password = ?',$password);
         $data =  $this->getAdapter()->fetchRow($select);
-//      echo $select;
         return $data;
-//        return json_encode($select);
+
     }
 
 }
