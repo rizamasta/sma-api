@@ -50,7 +50,6 @@ class Account_LoginController extends Application_Model_DealerAbstract{
                 }
                 /* End Update Data User*/
                 $this->view->ResponseData = $response;
-//                return $this->_getToken($response);
 
             }catch (Exception $e){
                 $this->view->msg= json_encode($e->getMessage());

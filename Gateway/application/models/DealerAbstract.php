@@ -10,10 +10,8 @@ class  Application_Model_DealerAbstract extends REST_Controller{
     protected $_views = null;
 
     public function indexAction(){
-        $this->getDataUsers();
-        $this->_generateToken();
-    }
 
+    }
 
     public function postAction(){
 
@@ -29,30 +27,11 @@ class  Application_Model_DealerAbstract extends REST_Controller{
        echo json_encode($response);
     }
 
-    /**
-     * @param null $response
-     */
-    protected function _getToken($response =null){
-        $params = $this->_request->getParam('id');
-
-        $code = (sha1("eticla21"));
-        if(sha1($params) === $code){
-            $this->view->SecureToken = sha1($params);
-            $this->view->ResponseData = $response;
-        }else{
-            $errorMsg = array(
-                'errorCode'=>'404',
-                'errorMsg'=>'Pleas Check ID Authorization'
-            );
-            $this->view->Msg=$errorMsg;
-        }
-
-    }
-
     protected function getModelLogin(){
         $model = new Account_Model_Account();
         return $model;
     }
+
 
     protected function getDataUsers(){
         $params = $this->_request->getParams();
@@ -77,9 +56,6 @@ class  Application_Model_DealerAbstract extends REST_Controller{
                     }
 
                     /* Get Data Session ID*/
-
-
-
                 }catch (Exception $e){
                     $this->view->errorMsg=$e->getMessage();
                 }
@@ -95,13 +71,40 @@ class  Application_Model_DealerAbstract extends REST_Controller{
         }
     }
 
+
     protected function _generateToken(){
         $params = $this->_request->getParams();
         if(!empty($params['securityToken'])){
-             return $this->getModelLogin()->getAuth($params['securityToken']);
+            $findUser = $this->getModelLogin()->getAuth($params['securityToken']);
+            $isLogin = false;
+            if(!empty($findUser)){
+                $this->view->login = true;
+                $isLogin = true;
+            }else{
+                $this->view->login = false;
+                $this->view->errorCode = '101';
+                $isLogin =false;
+            }
+            return $isLogin;
+        }else{
+            $this->view->errorCode = '404';
+            $this->view->ErrorLogin = 'User Not Allowed ';
         }
 
 
     }
+
+    protected function _getAuth(){
+        if(!empty($this->_generateToken()))
+        {
+            return;
+        }else{
+            $data = array('id'=>'nama');
+            echo json_encode($data);
+            return false;
+        }
+
+    }
+
 
 }
