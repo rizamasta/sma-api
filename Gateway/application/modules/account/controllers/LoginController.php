@@ -4,8 +4,7 @@ class Account_LoginController extends Application_Model_DealerAbstract{
 
 
     public function init(){
-        $this->view->Login  = true;
-        $this->getDataUsers();
+          $this->getDataUsers();
     }
 
     public function indexAction(){

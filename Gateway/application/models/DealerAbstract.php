@@ -32,39 +32,49 @@ class  Application_Model_DealerAbstract extends REST_Controller{
         return $model;
     }
 
-
     protected function getDataUsers(){
         $params = $this->_request->getParams();
 
         try{
-            $response= $this->getModelLogin()->getUser($params['username'],sha1($params['password']));
+            if(!empty($params['username']) && !empty($params['password'])){
+                    $response= $this->getModelLogin()->getUser($params['username'],sha1($params['password']));
+                    /* Start Update Data Login User*/
+                    if(!empty($response)){
+                            try{
+                                    session_start();
+                                    $upadateUser = array(
+                                        'last_log'=>new Zend_Db_Expr('NOW()'),
+                                        'session_id'=>sha1(session_id().$response['username']),
+                                    );
 
-            /* Start Update Data Login User*/
-            if(!empty($response)){
-                try{
-                    session_start();
-                    $upadateUser = array(
-                        'last_log'=>new Zend_Db_Expr('NOW()'),
-                        'session_id'=>sha1(session_id().$response['username']),
-                    );
+                                    if(!empty($response['username'])){
+                                        /*Save Data Update*/
+                                        $where = $this->getModelLogin()->getAdapter()->quoteInto('username = ?',$response['username']);
+                                        $this->getModelLogin()->update($upadateUser,$where);
+                                        $response= $this->getModelLogin()->getUser($params['username'],sha1($params['password']));
 
-                    if(!empty($response['username'])){
-                        /*Save Data Update*/
-                        $where = $this->getModelLogin()->getAdapter()->quoteInto('username = ?',$response['username']);
-                        $this->getModelLogin()->update($upadateUser,$where);
+                                        /*get Message Status*/
+                                        $this->view->login = true;
+                                        $this->view->securityToken = $response['session_id'];
+                                        unset($response['session_id']);
+                                        $this->view->responseData = $response;
+                                    }
+                            }catch (Exception $e){
+                                    $this->view->errorMsg=$e->getMessage();
+                            }
 
+                    }else{
+                        $this->view->login = false;
+                        $this->view->errorCode  = '405';
+                        $this->view->ErrorLogin = 'User Not Found';
                     }
-
-                    /* Get Data Session ID*/
-                }catch (Exception $e){
-                    $this->view->errorMsg=$e->getMessage();
-                }
-
+            }else{
+                $this->view->login = false;
+                $this->view->errorCode  = 500;
+                $this->view->ErrorLogin = 'Not Allowed For Use This Sistem !!';
             }
             /* End Update Data User*/
-            $this->view->securityToken = $response['session_id'];
-            unset($response['session_id']);
-            $this->view->responseData = $response;
+
 
         }catch (Exception $e){
             $this->view->msg= json_encode($e->getMessage());
@@ -82,29 +92,18 @@ class  Application_Model_DealerAbstract extends REST_Controller{
                 $isLogin = true;
             }else{
                 $this->view->login = false;
-                $this->view->errorCode = '101';
+                $this->view->errorCode = '405';
+                $this->view->ErrorLogin = 'User Not Found';
                 $isLogin =false;
             }
             return $isLogin;
         }else{
-            $this->view->errorCode = '404';
-            $this->view->ErrorLogin = 'User Not Allowed ';
+            $this->view->login = false;
+            $this->view->errorCode  = 500;
+            $this->view->ErrorLogin = 'Not Allowed For Use This Sistem !!';
         }
 
 
     }
-
-    protected function _getAuth(){
-        if(!empty($this->_generateToken()))
-        {
-            return;
-        }else{
-            $data = array('id'=>'nama');
-            echo json_encode($data);
-            return false;
-        }
-
-    }
-
 
 }
