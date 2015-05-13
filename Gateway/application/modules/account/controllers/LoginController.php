@@ -51,7 +51,7 @@ class Account_LoginController extends Application_Model_DealerAbstract{
                 $this->view->ResponseData = $response;
 
             }catch (Exception $e){
-                $this->view->msg= json_encode($e->getMessage());
+                $this->view->errorMsg= json_encode($e->getMessage());
             }
 
 

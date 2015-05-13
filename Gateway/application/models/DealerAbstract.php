@@ -77,7 +77,7 @@ class  Application_Model_DealerAbstract extends REST_Controller{
 
 
         }catch (Exception $e){
-            $this->view->msg= json_encode($e->getMessage());
+            $this->view->errorMsg= json_encode($e->getMessage());
         }
     }
 
