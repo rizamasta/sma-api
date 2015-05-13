@@ -65,8 +65,8 @@ class  Application_Model_DealerAbstract extends REST_Controller{
 
                     }else{
                         $this->view->login = false;
-                        $this->view->errorCode  = '405';
-                        $this->view->ErrorLogin = 'User Not Found';
+                        $this->view->errorCode  = 405;
+                        $this->view->ErrorLogin = 'User Not Found !!';
                     }
             }else{
                 $this->view->login = false;

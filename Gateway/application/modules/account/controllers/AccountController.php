@@ -30,25 +30,36 @@ class Account_AccountController extends Application_Model_DealerAbstract{
     protected function changePassword(){
         $params = $this->_request->getParam('update');
         try{
+            if(!empty($params))
             foreach($params as $key=>$val){
                 if(!empty($key)){
                     $UpdateData[$key]=$val;
+                    if($key==='password'){
+                        $UpdateData['password']=sha1($val);
+                    }
                     $UpdateData['update'] = new Zend_Db_Expr('NOW()');
                 }
             }
             if(!empty($params['username'])){
+                try{
+                    $where = $this->getModelAccount()->getAdapter()->quoteInto('username = ?',$params['username']);
+                    if($this->getModelAccount()->update($UpdateData,$where)){
+                        $this->view->messageUpdate = 'Succes Update !!';
+                    }else{
+                        $this->view->messageUpdate = 'Failed Update !!';
+                    }
 
-                $where = $this->getModelAccount()->getAdapter()->quoteInto('username = ?',$params['username']);
-                $this->getModelAccount()->update($UpdateData,$where);
-                $this->view->messageUpdate = 'Succes Update !!';
-
+                }catch (Exception $e){
+                    $this->view->errorMsg = $e->getMessage();
+                }
             }else{
-                $this->view->messageUpdate = 'Failed Update !!';
+                $this->view->errorCode = 101;
+                $this->view->messageUpdate = 'Failed Update,Please Check Your Params !!';
             }
 
 
         }catch (Exception $e){
-            $this->view->ErrorUpdate = $e->getMessage();
+//            $this->view->ErrorUpdate = $e->getMessage();
         }
     }
 }
