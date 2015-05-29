@@ -91,18 +91,55 @@ class  Application_Model_DealerAbstract extends REST_Controller{
                 $this->view->login = true;
                 $isLogin = true;
             }else{
-                $this->view->login = false;
-                $this->view->errorCode = '405';
-                $this->view->ErrorLogin = 'User Not Found';
-                $isLogin =false;
+                $noAuth = array('login' => false,
+                    'errorCode' => '405',
+                    'ErrorLogin' => 'User Not Found',
+                );
+                $this->getResponse()->setHttpResponseCode(401);
+                $this->_helper->json($noAuth);
+                die;
+
             }
             return $isLogin;
         }else{
-            $this->view->login = false;
-            $this->view->errorCode  = 500;
-            $this->view->ErrorLogin = 'Not Allowed For Use This Sistem !!';
+            $noAuth = array('login' => false,
+                'errorCode' => 500,
+                'ErrorLogin' => 'Not Allowed For Use This Sistem !!',
+            );
+            $this->getResponse()->setHttpResponseCode(401);
+            $this->_helper->json($noAuth);
+//            die;
         }
 
+
+    }
+
+    /**
+     * @param $param isi yang akan di tulis
+     * @param $name nama log
+     *  @info  EMERG   = 0;  // Emergency: system is unusable
+        ALERT   = 1;  // Alert: action must be taken immediately
+        CRIT    = 2;  // Critical: critical conditions
+        ERR     = 3;  // Error: error conditions
+        WARN    = 4;  // Warning: warning conditions
+        NOTICE  = 5;  // Notice: normal but significant condition
+        INFO    = 6;  // Informational: informational messages
+        DEBUG   = 7;  // Debug: debug messages
+     */
+    protected function log($message,$level,$name){
+        $level  = is_null($level) ? Zend_Log::DEBUG : $level;
+
+        if (is_array($message) || is_object($message)) {
+            $message = print_r($message, true);
+        }
+
+        $log = new Zend_Log();
+        $format = '%timestamp% %priorityName% (%priority%): %message%' . PHP_EOL;
+        $formatter = new Zend_Log_Formatter_Simple($format);
+        $writer = new Zend_Log_Writer_Stream(APPLICATION_PATH .'/../data/log/'.$name);
+        $writer->setFormatter($formatter);
+        $log->addWriter($writer);
+        $log->log($message,$level);
 
     }
 

@@ -8,11 +8,10 @@
 class Account_AccountController extends Application_Model_DealerAbstract{
 
     public function init(){
-        if(!empty($this->_generateToken()))
+        $this->_generateToken();
         $this->changePassword();
 
     }
-
 
 
     protected function getModelAccount(){
@@ -45,7 +44,10 @@ class Account_AccountController extends Application_Model_DealerAbstract{
                     $where = $this->getModelAccount()->getAdapter()->quoteInto('username = ?',$params['username']);
                     if($this->getModelAccount()->update($UpdateData,$where)){
                         $this->view->messageUpdate = 'Succes Update !!';
+                        $params['Msg']='Succes Update !!';
+                        $this->log($params,null,'succes.log');
                     }else{
+                        $this->log($params,null,'fail.log');
                         $this->view->messageUpdate = 'Failed Update !!';
                     }
 
@@ -53,13 +55,22 @@ class Account_AccountController extends Application_Model_DealerAbstract{
                     $this->view->errorMsg = $e->getMessage();
                 }
             }else{
-                $this->view->errorCode = 101;
+                $this->view->errorCode = 102;
                 $this->view->messageUpdate = 'Failed Update,Please Check Your Params !!';
+//                $this->logUpdate();
+                $this->logUpdate($this->getRequest()->getParams());
             }
 
 
         }catch (Exception $e){
-//            $this->view->ErrorUpdate = $e->getMessage();
+            $this->view->ErrorUpdate = $e->getMessage();
         }
     }
+
+    protected function logUpdate($message){
+
+        $this->log($message,null,'AccountUpdate.log');
+    }
+
+
 }
