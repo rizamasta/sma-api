@@ -31,6 +31,7 @@ class Account_Model_Role extends  Zend_Db_Table_Abstract{
         $query->join(array('rule'=>'tbl_rule'),'rl.id=rule.id_role',array());
         $query->join(array('resource'=>'tbl_resource'),'rule.id_resource=resource.id_resource',array('*'));
         $query->where('rule.id_role = ?',$idrole);
+        $query->order('resource.id_resource');
         return $this->getAdapter()->fetchAll($query);
 
     }
