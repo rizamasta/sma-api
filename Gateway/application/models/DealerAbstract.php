@@ -18,9 +18,7 @@ class  Application_Model_DealerAbstract extends REST_Controller{
     }
 
     protected function pr($array){
-        echo '<pre>';
-        print_r($array);
-        echo '</pre>';
+       return $this->_helper->json($array);
     }
 
     protected function _view($response){
@@ -31,6 +29,21 @@ class  Application_Model_DealerAbstract extends REST_Controller{
         $model = new Account_Model_Account();
         return $model;
     }
+
+    /**
+     * @return Account_Model_Resource
+     */
+    protected function getModelResource(){
+        return new Account_Model_Resource();
+    }
+
+    /**
+     * @return Account_Model_Role
+     */
+    protected function getModelRole(){
+        return new Account_Model_Role();
+    }
+
 
     protected function getDataUsers(){
         $params = $this->_request->getParams();
@@ -142,5 +155,24 @@ class  Application_Model_DealerAbstract extends REST_Controller{
         $log->log($message,$level);
 
     }
+
+    protected function buildTree(array $elements, $parentId = 0) {
+        $branch = array();
+
+        foreach ($elements as $element) {
+            if ($element['id_parent'] == $parentId) {
+                $children = $this->buildTree($elements, $element['id_resource']);
+                unset($element['id_resource']);
+                unset($element['id_parent']);
+                if ($children) {
+                    $element['submenu'] = $children;
+                }
+                $branch[] = $element;
+            }
+        }
+
+        return $branch;
+    }
+
 
 }

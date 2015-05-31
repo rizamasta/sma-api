@@ -21,8 +21,6 @@ class Account_LoginController extends Application_Model_DealerAbstract{
         }
 
     }
-
-
     protected function _getDataUser(){
         $params = $this->_request->getParams();
 
@@ -53,8 +51,6 @@ class Account_LoginController extends Application_Model_DealerAbstract{
             }catch (Exception $e){
                 $this->view->errorMsg= json_encode($e->getMessage());
             }
-
-
 
     }
 }

@@ -10,7 +10,7 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
         $frontController->setResponse(new REST_Response);
 
         // add the REST route for the API module only
-//        $restRoute = new Zend_Rest_Route($frontController, array(), array('api'),array('account'));
+//        $restRoute = new Zend_Rest_Route($frontController, array(), array('api'),array('user-resource'));
         $restRoute = new Zend_Rest_Route($frontController, array(), array('api'),array());
         $frontController->getRouter()->addRoute('rest', $restRoute);
     }

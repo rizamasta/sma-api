@@ -53,6 +53,9 @@ class Default_ErrorController extends Zend_Controller_Action
         return $log;
     }
 
+    public  function noAccesAction(){
+       echo $this->view->errorMsg = 'Forbidden Acces!! ';die;
+    }
 
 }
 

@@ -1,0 +1,2 @@
+Code										Message
+111										User Resource Menu Not Found, Please Contact Call Center

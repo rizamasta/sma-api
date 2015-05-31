@@ -1,0 +1,7 @@
+2015-05-29T16:34:08+07:00 INFO (6): Informational message
+2015-05-29T16:34:08+07:00 WARN (4): Warning message
+2015-05-29T16:35:16+07:00 WARN (4): test
+2015-05-29T16:37:41+07:00 WARN (4): array
+2015-05-29T16:38:16+07:00 WARN (4): 1
+2015-05-29T16:39:02+07:00 WARN (4): ["nama","alamat","umur"]
+2015-05-29T16:40:07+07:00 WARN (4): ["nama","alamat","umur"]

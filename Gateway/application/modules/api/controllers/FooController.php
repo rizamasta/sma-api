@@ -84,10 +84,7 @@ class Api_FooController extends REST_Controller
      */
     public function deleteAction()
     {
-        $id = $this->_getParam('id', 0);
-        $this->view->id = $id;
-        $this->view->message = sprintf('Resource #%s Deleted', $id);
-        $this->_response->ok();
+        $this->view->test='te';
     }
 
     protected function _Modellogin(){

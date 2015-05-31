@@ -1,0 +1,108 @@
+2015-05-29T16:55:42+07:00 INFO (6): ["nama","alamat","umur"]
+2015-05-29T16:56:46+07:00 INFO (6): "$data"
+2015-05-29T16:56:47+07:00 INFO (6): "$data"
+2015-05-29T16:57:01+07:00 INFO (6): "Failed Update,Please Check Your Params !!"
+2015-05-29T17:00:36+07:00 INFO (6): "Failed Update,Please Check Your Params !!"
+2015-05-29T17:00:56+07:00 INFO (6): "Failed Update,Please Check Your Params !!"
+2015-05-29T17:02:00+07:00 INFO (6): "Failed Update,Please Check Your Params !!"
+2015-05-29T17:02:01+07:00 INFO (6): "Failed Update,Please Check Your Params !!"
+2015-05-29T17:02:01+07:00 INFO (6): "Failed Update,Please Check Your Params !!"
+2015-05-29T17:02:01+07:00 INFO (6): "Failed Update,Please Check Your Params !!"
+2015-05-29T17:02:02+07:00 INFO (6): "Failed Update,Please Check Your Params !!"
+2015-05-29T17:02:02+07:00 INFO (6): "Failed Update,Please Check Your Params !!"
+2015-05-29T17:02:02+07:00 INFO (6): "Failed Update,Please Check Your Params !!"
+2015-05-29T17:02:02+07:00 INFO (6): "Failed Update,Please Check Your Params !!"
+2015-05-29T17:17:04+07:00 DEBUG (7): Array
+(
+    [test] => test
+    [a] => a
+)
+
+2015-05-29T17:18:43+07:00 INFO (6): Array
+(
+    [test] => test
+    [a] => a
+)
+
+2015-05-29T17:22:28+07:00 DEBUG (7): 
+2015-05-29T17:22:28+07:00 DEBUG (7): 
+2015-05-29T17:22:34+07:00 DEBUG (7): 
+2015-05-29T17:22:54+07:00 DEBUG (7): 
+2015-05-29T17:24:03+07:00 DEBUG (7): Array
+(
+    [usernames] => admin
+    [password] => admin
+)
+
+2015-05-29T17:24:40+07:00 DEBUG (7): REST_Request Object
+(
+    [_error:REST_Request:private] => 
+    [_paramSources:protected] => Array
+        (
+            [0] => _GET
+            [1] => _POST
+        )
+
+    [_requestUri:protected] => /account/account
+    [_baseUrl:protected] => 
+    [_basePath:protected] => 
+    [_pathInfo:protected] => /account/account
+    [_params:protected] => Array
+        (
+            [module] => account
+            [controller] => account
+            [action] => index
+            [format] => json
+            [update] => Array
+                (
+                    [usernames] => admin
+                    [password] => admin
+                )
+
+            [securityToken] => 25c804317de07ca896bd17200f48ccb5bbd09821
+        )
+
+    [_rawBody:protected] => update%5Busernames%5D=admin&update%5Bpassword%5D=admin&securityToken=25c804317de07ca896bd17200f48ccb5bbd09821
+    [_aliases:protected] => Array
+        (
+        )
+
+    [_dispatched:protected] => 1
+    [_module:protected] => account
+    [_moduleKey:protected] => module
+    [_controller:protected] => account
+    [_controllerKey:protected] => controller
+    [_action:protected] => index
+    [_actionKey:protected] => action
+)
+
+2015-05-29T17:24:57+07:00 DEBUG (7): Array
+(
+    [module] => account
+    [controller] => account
+    [action] => index
+    [format] => json
+    [update] => Array
+        (
+            [usernames] => admin
+            [password] => admin
+        )
+
+    [securityToken] => 25c804317de07ca896bd17200f48ccb5bbd09821
+)
+
+2015-05-29T17:26:13+07:00 DEBUG (7): Array
+(
+    [module] => account
+    [controller] => account
+    [action] => index
+    [format] => json
+    [update] => Array
+        (
+            [usernames] => admin
+            [password] => admin
+        )
+
+    [securityToken] => 25c804317de07ca896bd17200f48ccb5bbd09821
+)
+
