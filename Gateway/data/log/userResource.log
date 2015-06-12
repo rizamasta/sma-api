@@ -2005,3 +2005,1763 @@
 
 )
 
+2015-05-31T12:38:43+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T12:40:00+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T12:40:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T12:40:51+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T12:41:00+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T12:41:00+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T12:41:41+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T12:42:14+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T12:42:27+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T12:42:41+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T12:42:54+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T12:48:54+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+    [4] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+)
+
+2015-05-31T12:50:35+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+    [4] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+)
+
+2015-05-31T12:54:07+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+    [4] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+)
+
+2015-05-31T12:54:07+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+    [4] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+)
+
+2015-05-31T12:55:40+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T12:56:48+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T12:56:48+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T12:59:03+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T13:01:07+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T13:10:45+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                            [submenu] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => Subsidi Accessories x
+                                            [sref] => #
+                                            [icon] => icon-wrench
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T13:13:34+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                            [submenu] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => Subsidi Accessories x
+                                            [sref] => #
+                                            [icon] => icon-wrench
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T13:13:38+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                            [submenu] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => Subsidi Accessories x
+                                            [sref] => #
+                                            [icon] => icon-wrench
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T13:13:40+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                            [submenu] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => Subsidi Accessories x
+                                            [sref] => #
+                                            [icon] => icon-wrench
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T13:14:29+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                            [submenu] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => Subsidi Accessories x
+                                            [sref] => #
+                                            [icon] => icon-wrench
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T13:14:31+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                            [submenu] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => Subsidi Accessories x
+                                            [sref] => #
+                                            [icon] => icon-wrench
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T13:14:57+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                            [submenu] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => Subsidi Accessories x
+                                            [sref] => #
+                                            [icon] => icon-wrench
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T17:42:04+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                            [submenu] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => Subsidi Accessories x
+                                            [sref] => #
+                                            [icon] => icon-wrench
+                                            [submenu] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [text] => Subsidi Accessories xx
+                                                            [sref] => #
+                                                            [icon] => icon-wrench
+                                                            [submenu] => Array
+                                                                (
+                                                                    [0] => Array
+                                                                        (
+                                                                            [text] => Subsidi Accessories xxy
+                                                                            [sref] => #
+                                                                            [icon] => icon-wrench
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T17:45:44+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                            [submenu] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => Subsidi Accessories x
+                                            [sref] => #
+                                            [icon] => icon-wrench
+                                            [submenu] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [text] => Subsidi Accessories xx
+                                                            [sref] => #
+                                                            [icon] => icon-wrench
+                                                            [submenu] => Array
+                                                                (
+                                                                    [0] => Array
+                                                                        (
+                                                                            [text] => Subsidi Accessories xxy
+                                                                            [sref] => #
+                                                                            [icon] => icon-wrench
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T17:49:35+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T17:49:40+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T17:52:08+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => JRF Penjualan Unit
+                            [sref] => memo.jrfUnit
+                            [icon] => fa-shopping-cart
+                        )
+
+                    [1] => Array
+                        (
+                            [text] => JRF Bengkel
+                            [sref] => memo.jrfBengkel
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T18:02:32+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => JRF Penjualan Unit
+                            [sref] => memo.jrfUnit
+                            [icon] => fa-shopping-cart
+                        )
+
+                    [1] => Array
+                        (
+                            [text] => JRF Bengkel
+                            [sref] => memo.jrfBengkel
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-05-31T18:02:51+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => JRF Penjualan Unit
+                            [sref] => memo.jrfUnit
+                            [icon] => fa-shopping-cart
+                        )
+
+                    [1] => Array
+                        (
+                            [text] => JRF Bengkel
+                            [sref] => memo.jrfBengkel
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
+2015-06-01T10:15:16+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [text] => Home
+            [sref] => memo.dashboard
+            [icon] => icon-speedometer
+        )
+
+    [1] => Array
+        (
+            [text] => PIC JRF
+            [sref] => #
+            [icon] => icon-docs
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => JRF Penjualan Unit
+                            [sref] => memo.jrfUnit
+                            [icon] => fa-shopping-cart
+                        )
+
+                    [1] => Array
+                        (
+                            [text] => JRF Bengkel
+                            [sref] => memo.jrfBengkel
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [text] => Master
+            [sref] => #
+            [icon] => icon-wallet
+            [submenu] => Array
+                (
+                    [0] => Array
+                        (
+                            [text] => Subsidi Accessories
+                            [sref] => #
+                            [icon] => icon-wrench
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [text] => Edit User
+            [sref] => memo.editUser
+            [icon] => icon-user
+        )
+
+    [4] => Array
+        (
+            [text] => Logout
+            [sref] => login.out
+            [icon] => icon-logout
+        )
+
+)
+
